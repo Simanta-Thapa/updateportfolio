@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.container{
+    width: 95%;
+    margin:0 auto;
+ 
+}
+
+.navbarcontainer{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+   justify-content: space-between;
+    gap:0rem;
+    padding: 0.7rem 0rem;
+}
+
+.toggle{
+    display: none;
+}
+
+.fa-solid{
+ 
+    display: none !important;
+}
+
+
+/* project skills  */
+
+
+
+.projectimageshadow{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.projectsection{
+  display: grid;
+   grid-template-columns: repeat(2,335px);
+   justify-content: center;
+   column-gap: 4rem;
+   row-gap: 2rem;
+
+}
+
+/* .projectlayer a{
+   margin:6rem 10rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.showfirstwebsitelayer.showlayer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 165px;
+  
+}
+
+.showwebsitetwolayer.showsecondwebsitelayer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.showwebsitethreelayer.showthirdwebsitelayer{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 165px;
+}
+
+
+
+form{
+    width: 600px;
+ 
+}
+
+.inputgroup,input,textarea,button{
+    width: 100%;
+}
+
+input,textarea{
+
+    outline: none;
+}
+
+
+
+.myskills{
+    /* display: grid;
+    grid-template-columns: repeat(2,390px);
+    justify-content: center; */
+
+    display:flex;
+
+}
+
+
+
+
+
+
+
+@media(max-width:640px){
+
+    .navbarlistcontent{
+        position: fixed;
+        top:0;
+        right: -100%;
+        width: 100%;
+        height:100%;
+        background-color: white;
+        transition: .5s ease-in;
+    }
+  
+    .navbarlistcontent.shownavbar{
+        right: 0;
+    }
+    .toggle{
+        display: block;
+    }
+
+    .fa-xmark{
+        display: block !important;
+    }
+
+    
+    .fa-bars{
+        display: block !important;
+    }
+
+
+.projectsection{
+    display: flex;
+    flex-direction: column;
+}
+   
+    .myskills{
+       display: flex;
+       flex-direction: column;
+    
+    }
+
+/* 
+    .projectsection{
+        flex-direction: column;
+        gap:3rem;
+    } */
+
+
+    .upperinput{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+   
+    }
+    
+    .inputgroup{
+        width: 60%;
+    }
+
+    form{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #massage{
+        width: 100%;
+    }
+
+    .text-arealabel{
+        left:15rem;
+    }
+
+}
+
+
+@media (min-width:641px) and (max-width:736px){
+
+    .myskills{
+      display: grid;
+      grid-template-columns: repeat(2,300px);
+      justify-content: center;
+     
+     }
+
+
+    .projectsection{
+        display: flex;
+        flex-wrap: wrap;
+    
+        justify-content: center;
+        row-gap: 1rem;
+        column-gap: 2rem;
+       
+    }
+
+    .projectcontent{
+        width: 40%;
+    } 
+
+}
