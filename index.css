@@ -14,7 +14,7 @@ header{
 }
 
 .container{
-    width: 95%;
+    width: 80%;
     margin:0 auto;
  
 }
@@ -40,7 +40,9 @@ header{
 
 /* project skills  */
 
-
+#project{
+    padding-top:3.7rem;
+}
 
 .projectimageshadow{
     background-color: rgba(0,0,0,0.5);
