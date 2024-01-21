@@ -58,6 +58,10 @@ header{
 }
 
 
+#aboutme{
+    padding-top:7rem;
+}
+
 
 #aboutmeheading{
     text-align: center;
@@ -227,7 +231,7 @@ input,textarea{
 @media screen and (min-width:1240px){
 
     #aboutme{
-        padding-top:2rem;
+        padding-top:3rem;
     }
         #Skills{
             padding-top:5rem;
@@ -368,7 +372,7 @@ input,textarea{
 }
 
 
-@media (min-width:641px) and (max-width:736px){
+@media (min-width:641px) and (max-width:768px){
     #aboutme{
         padding-top:25rem;
     }
