@@ -233,33 +233,31 @@
                 </div>
 
                 <div class="contactcontent mt-3">
-                    <form action="" class="form flex flex-col gap-8 mx-auto">
-                       
-                        <div class="upperinput flex gap-3">
-                            <div class="inputgroup">
-                                <input type ="text" name="name" placeholder="Enter your Name" class="p-5 bg-transparent border rounded-2xl border-white">
-                            </div>
-    
-                            <div class="inputgroup">
-                                <input type ="email" name="email" placeholder="Enter Your Email" class="p-5 bg-transparent border rounded-2xl border-white">
-                            </div>
-                        </div>
-                     
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form flex flex-col gap-8 mx-auto">
+                        <input type="hidden" name="access_key" value="e612d510-ee96-4600-b026-8f8a55d595ef">
+
                       
-
-                        <div class="inputgroup relative">
-                            <label class="text-arealabel" for="massage" class="absolute top-5 left-6">Enter Your Message</label>
-                            <textarea id="massage" class="textarea p-5 bg-transparent border rounded-2xl border-white" rows="8" >
-
-
-                            </textarea>
-                        </div>
-
+                      <div class="upperpartinput flex justify-between gap-2">
                         <div class="inputgroup">
-                            <button type="submit" class=" p-5 bg-transparent border rounded-2xl border-white">Submit</button>
+                            <input type="text" name="name" placeholder="Enter Your Name"  required>
+                        </div>              
+                        
+                        <div class="inputgroup">
+                            <input type="email" name="email" placeholder="Enter Your Email" required>
                         </div>
-                      
-                      
+                      </div>
+
+
+
+<div class="message">
+    <textarea name="message" placeholder="Enter Your Message" required>
+
+    </textarea>
+</div>
+
+
+    <button type="submit">Submit Form</button>
+
                     </form>
                 </div>
             </div>

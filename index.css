@@ -197,18 +197,38 @@ header{
 
 
 
-form{
+ form{
     width: 600px;
+    
+
  
 }
+
 
 .inputgroup,input,textarea,button{
     width: 100%;
 }
 
+
 input,textarea{
 
     outline: none;
+}
+
+.inputgroup input,textarea{
+    background:transparent;
+    border:1px solid white;
+    padding:1rem;
+}
+
+
+textarea{
+    height: 200px;
+}
+
+button{
+    border: 1px solid white;
+    padding:1.5rem;
 }
 
 
@@ -361,6 +381,14 @@ input,textarea{
         align-items: center;
     }
 
+    .upperpartinput{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .inputgroup, input,.message{
+        width: 100%;
+    }
     #massage{
         width: 100%;
     }
